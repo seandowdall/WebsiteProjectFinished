@@ -1,0 +1,172 @@
+body{
+    font-family: arial;
+    
+    
+}
+.index{
+    background-image: url(../images/indexbackground.jpg)
+}
+/*css styling for heading (grouped)*/
+h1
+{
+    color:black;
+    font-family:arial;
+    text-align: center;
+}
+/*css styling for navigation*/
+nav ul li {
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 15px;
+    margin: 10px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;  
+    
+}
+nav {
+    
+    padding: 20%;
+    
+}
+nav ul {
+    text-align: center;
+    font-size: 2em;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover {
+    background-color: #8E8E8E;
+}
+.home {
+    text-align: center;
+    padding: 5%;
+    padding-right: 7%;
+}
+.centrePlease{
+    margin-right: auto;
+    margin-left: auto;
+}
+h2, h3{
+    font-family: arial;
+    font-size: 1em;
+    
+}
+.CatList{
+    
+    background-color: dimgray;
+    border-style: solid;
+    font-family: arial;
+    font-size: 2em;
+    width: 300px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+.businessBody{
+   background-image: url(../images/office.jpg);
+   background-repeat: no-repeat;
+    background-size: 1700px;
+    
+}
+.fitnessBody{
+    background-image: url(../images/fitness.jpg)
+    
+}
+.technology{
+    background-image: url(../images/technologybackground.jpg)
+}
+.TechList{
+    background-color: dimgray;
+    border-style: solid;
+    font-family: arial;
+    font-size: 2em;
+    width: 350px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.individual{
+    background-color: white;
+    
+}
+#individualArticle{
+   
+    position: absolute;
+    top: 100px;
+    left: 430px;
+    background-color: lightgray;
+    border-style: solid;
+    font-family: arial;
+    font-size: 1em;
+    width: 750px;
+    text-align: center;
+    height: 620px;
+
+
+}
+#mainText{
+    text-align: left;
+}
+#achievements{
+    text-align: left;
+}
+
+.individualhome{
+    
+    position:absolute;
+    bottom: -50px;
+    left: -230px;
+}
+.individual{
+    background-image: url(../images/modernTech.jpg)
+}
+.soccer{
+    background-image: url(../images/soccer.jpg)
+}
+.individualTwo{
+    background-image: url(../images/ronaldobackground.jpg)
+
+}
+.col{
+    column-count: 3;
+    column-rule: 1px solid black;
+    column-gap: normal;
+}
+.maps{
+    position:absolute;
+    bottom: 0px;
+    right: -380px;
+}
+
+
+
+
+
+/*css styling for header*/
+header {
+  width:100%;
+  height:8%; 
+  position:absolute;
+  top:0;
+  left:0;
+  background-color:dimgray;
+  border-bottom-style: solid;
+}
+/*css styling for footer*/
+footer{
+  width:100%;
+  height:5%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background-color:dimgray;
+  border-top-style: solid;
+}
+
+
